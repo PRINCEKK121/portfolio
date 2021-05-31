@@ -323,20 +323,12 @@ header {
   bottom: 0;
 }
 
-.overlay {
-  background: #766dff;
-}
-
 .video-overlay iframe {
   display: block;
   opacity: 0.7;
   width: 100%;
   height: 100%;
-  transition: 0.3s;
-}
-
-.video-overlay iframe:hover {
-  opacity: 1;
+  /* transition: opacity 0.3s; */
 }
 
 /* back to top section */
